@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #87CEEB; /* Azul claro */
+  }
+  
+  #gameArea {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #2f8b80; /* Cor do fundo */
+    overflow: hidden;
+    margin-top: 50px;
+  }
+  
+  #player {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #FF6347; /* Cor do jogador */
+    border-radius: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .obstacle {
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #ff4500; /* Cor dos obstáculos */
+  }
+  
+  #score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+  }
+  
